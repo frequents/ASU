@@ -25,15 +25,15 @@ if game.PlaceId == 2008032602 then --//  isfile("stuffnstuff/streamermode.txt")
         
         Invite:GetPropertyChangedSignal('Visible'):Connect(function()
             if Invite.Visible then
-                Invite:FindFirstChild('From').Text = '.gg/cWh43mFDms';
+                Invite:FindFirstChild('From').Text = 'frequents';
             end;
         end);
     end;
 end;
 queue_on_teleport([[
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/Fmeat51/ASU/refs/heads/main/loader.lua'))();
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/frequents/ASU/refs/heads/main/main.lua'))();
 ]])
 
 if game.PlaceId == 1458767429 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Fmeat51/ASU/refs/heads/main/main.lua'))();
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/frequents/ASU/refs/heads/main/main.lua'))();
 end;
