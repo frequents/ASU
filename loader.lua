@@ -13,7 +13,7 @@ if game.PlaceId == 2008032602 then --//  isfile("stuffnstuff/streamermode.txt")
         local function Process(Frame)
             if Frame:IsA('Frame') and Frame:WaitForChild('MemberName') then
                 local MemberName = Frame:WaitForChild('MemberName');
-                MemberName.Text = '.gg/cWh43mFDms';
+                MemberName.Text = 'frequents';
             end;
         end;
         
